@@ -1,0 +1,130 @@
+:root{
+  --cuccessr-color: #2691d2;
+  --error-color:#e73c3c;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  .container-register{
+    max-width: 400px;
+    height: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+  }
+  .container{
+    max-width: 400px;
+    height: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+  }
+  .form {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+  }
+  .container-register h2 {
+    text-align: center;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+    position: relative;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .form-group input {
+    width: 95%;
+    padding: 5px;
+    border:none;
+    outline: none;
+    border-bottom: 1px solid #adadad;
+  }
+  
+  .form-group button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4caf50;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  h4{
+    font-weight: lighter;
+  }
+  #back{
+    color: #595959;
+  }
+  .form-group span{
+    position: absolute;
+    border-bottom: 3px solid var(--cuccessr-color);
+    left: 0;
+    top: 48px;
+    width:0;
+    transition: 0.3s;
+  }
+  .form-group input:focus ~ span{
+    width: 100%;
+  }
+  .form-group .Error small{
+    color: var(--error-color);
+  }
+  .form-group .Error input{
+    border-bottom:1px solid var(--error-color);
+  }
+  .Social{
+    text-decoration: none;
+    color: black;
+  }
+  .Social-link{
+    padding: 10px;
+  }
+  .Social_auth-form-facebook{
+    margin-bottom: 30px;
+    border: 1px solid black;
+    padding: 10px;
+    background-color: #ffffff;
+    text-align: center;
+    justify-content: center;
+  }
+  .bxl-facebook{
+    background-color: rgb(0, 8, 169);
+    border-radius: 100%;
+    color: #ffffff;
+  }
+  .Social_auth-form-google{
+    margin-bottom: 30px;
+    border: 1px solid black;
+    padding: 10px;
+    background-color: #ffffff;
+    text-align: center;
+    justify-content: center;
+  }
+  .bxl-google{
+    background-color: rgba(194, 194, 194, 0.764);
+    border-radius: 100%;
+    color: #000000;
+  }
+  .link-register{
+    float: right ;
+    display: flex;
+  }
+  .link-register a{
+    /* text-decoration: none; */
+    color: #595959;
+  }

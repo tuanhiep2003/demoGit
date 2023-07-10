@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="product.css">
+    <title>product</title>
+</head>
+<body>
+    <div class="fixed_scroll">
+        <div class="headline">
+          <div class="topleft">
+            <ul class="font-size-left">
+              <li>
+                <a aria-label="hotline" class="btnHL" href="">
+                  <i class='bx bxs-phone-call'></i>
+                  <span class="title-info-top">
+                    <b>0325.542.941</b>
+                  </span>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="topright">
+            <ul class="font-size-right">
+              <li id="cat-header-top">
+                <span id="site-cart-handle" class="icon-cart" aria-label="Open cart" title="Giỏ hàng">
+                  <a aria-label="cart" href="./cart.html" class="count-holder">
+                    <span class='bx bxs-shopping-bag'></span>
+                    <span class="title-info-top">
+                      Giỏ hàng
+                      <span>
+                        (
+                        <span class="count">0</span>
+                        )
+                      </span>
+                    </span>
+                  </a>
+                </span>
+              </li>
+              <li>
+                <a href="register.html" class="count-holder-user">
+                  <span class='bx bx-user'></span>
+                  <span class="title-info-top">Tài khoản</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <header>
+          <div id="logo-control-search">
+            <div class="logo">
+              <img src="anh/back market (1)_transparent.png" alt="">
+            </div>
+            <div class="control">
+              <Nav>
+                <ul class="control-btn">
+                  <li><a href="./shirt.html" class="btn" type="">Áo nam</a>
+                    <ul class="sub-menu">
+                      <li><a href="#">Áo Blazer</a></li>
+                      <li><a href="#">Áo Phông</a></li>
+                      <li><a href="#">Áo Sơ Mi</a></li>
+                      <li><a href="#">Áo Tank Top</a></li>
+                      <li><a href="#">Áo Polo</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="./pants.html" class="btn" type="">Quần nam</a>
+                    <ul class="sub-menu">
+                      <li><a href="#">Quần jeans</a></li>
+                      <li><a href="#">Quần short</a></li>
+                      <li><a href="#">Quần âu</a></li>
+                      <li><a href="#">Quần jogger</a></li>
+                      <li><a href="#">Quần kaki</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="./accessory.html" class="btn" type="">Phụ kiện</a>
+                    <ul class="sub-menu">
+                      <li><a href="#">Dây lưng</a></li>
+                      <li><a href="#">Balo + Cặp sách</a></li>
+                      <li><a href="#">Giày Dép</a></li>
+                      <li><a href="#">Tất nam</a></li>
+                      <li><a href="#">MŨ nam</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="./news.html" class="btn" type="">Tin tức</a></li>
+                </ul>
+              </Nav>
+            </div>
+            <div class="search">
+              <input type="text" id="search-input" placeholder="Nhập từ khóa...">
+              <button class="search-btn">
+                <i class='bx bx-search'></i>
+              </button>
+            </div>
+          </div>
+      </div>
+        </header>
+<!-- product -->
+        <div class="form_product-top ">
+            <a href="index.html">Trang Chủ</a> <span></span> <a href=""> Áo Polo</a> <span></span> <p>Áo Polo Cổ Đức Regular Cotton 2068</p>
+        </div>
+        <section class="form-product">
+        <div class="form_product-content">
+            <div class="form_product-content_left">
+                <div class="form_product-content_left-big-img">
+                    <img src="image/1.jpeg" alt="">
+                </div>
+                <div class="form_product-content_left-smal-img">
+                    <div class="product-img-min"><img src="image/2.jpeg" alt=""></div>
+                    <div class="product-img-min"><img src="image/3.jpeg" alt=""></div>
+                    <div class="product-img-min"><img src="image/4.jpeg" alt=""></div>
+                    <div class="product-img-min"><img src="image/5.jpeg" alt=""></div>
+                </div>
+            </div>
+            <div class="form_product-content_right">
+                <div class="form_product-content_right-name">
+                    <h1>Áo Polo Cổ Đức Regular Cotton 2068</h1>
+                    <p>Còn hàng</p>
+                </div>
+                <div class="form_product-content_right-price">
+                    <span>349,000₫</span>
+                </div>
+                <div class="form_product-content_right-color">
+                    <p>màu sắc</p>
+                    <button class="select-color black"></button>
+                    <button class="select-color bee"></button>
+                    <button class="select-color white"></button>
+                    <button class="select-color red"></button>
+                    <div class="form_product-content_right-color-img">
+                        <img src="" alt="">
+                    </div>
+                </div>
+                <div class="form_product-content_right-size">
+                    <p>Size</p>
+                    <div class="size">
+                        <span>S</span>
+                        <span>M</span>
+                        <span>L</span>
+                        <span>XL</span>
+                    </div>
+                </div>
+                <div class="quantity">
+                    <input type="button" value="-" onclick="minusQuantity()" class="qty-btn tp_button">
+                    <input type="number" id="quantity" name="quantity" value="1" min="1" class="quantity-selector" max="1088" required>
+                    <input type="button" value="+" onclick="plusQuantity()" class="qty-btn tp_button">
+                </div>
+                <div class="form_product-content_right-btn">
+                    <button class="form_product-content_right-btn_add">THÊM VÀO GIỎ HÀNG</button>
+                    <button class="form_product-content_right-btn_buy">MUA NGAY</button>
+                </div>
+                <div class="share">
+                  <span>Chia sẻ</span>
+                  <a href="https://www.facebook.com/krik.vn"><i class='bx bxl-facebook'></i></a>
+                  <a href=""><i class='bx bxl-twitter' ></i></a>
+                  <a href=""><i class='bx bxl-google-plus' ></i></a>
+                </div>
+                <div class="product-description">
+                  <div class="title-bl"><h2>
+                  Thuộc tính sản phẩm
+                  <span class="icon-open active"></span>
+                     </h2>
+                  </div>
+                  <div class="description-content" style="display: block;">
+                    <div class="description-productdetail">
+                      <div class="description-productdetail">
+                        <p style="text-align:justify;">
+                          <span style="font-family:Arial, Helvetica, sans-serif;">Chất liệu:</span><br>
+                          <span style="font-family:Arial, Helvetica, sans-serif;">►70% Cotton mềm mại, thấm hút mồ hôi tốt, độ bền cao</span><br>
+                          <span style="font-family:Arial, Helvetica, sans-serif;">►25% Polyester chống nhăn, giữ form dáng tốt, hạn chế bám bụi.</span><br>
+                          <span style="font-family:Arial, Helvetica, sans-serif;">►5% Spandex tạo độ co giãn, thoải mái khi vận động</span></p>
+                          <p style="text-align:justify;"><span style="font-family:Arial, Helvetica, sans-serif;">Kiểu dáng:</span><br>
+                          <span style="font-family:Arial, Helvetica, sans-serif;">►Form Regular rộng thoáng, phù hợp vóc dáng người Việt.</span></p>
+                          <p style="text-align:justify;"><span style="font-family:Arial, Helvetica, sans-serif;">Chi tiết:</span><br>
+                          <span style="font-family:Arial, Helvetica, sans-serif;">►Màu sắc cơ bản dễ phối đồ, có 4 màu: Đen, Trắng, Ghi, Vàng</span><br>
+                          <span style="font-family:Arial, Helvetica, sans-serif;">►Họa tiết chữ "K" in nổi tinh tế, tạo điểm nhấn trẻ trung, năng động</span><br>
+                          <span style="font-family:Arial, Helvetica, sans-serif;">►Cổ Đức thanh lịch, tay áo bo chun nhẹ khỏe khoắn</span><br>
+                          <span style="font-family:Arial, Helvetica, sans-serif;">►Đẹp hơn khi phối cùng quần âu, quần Kaki, quần Short</span><br></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="product-description">
+                  <div class="title-bl"><h2>
+                  Chính sách từ Krik                                                    
+                  <span class="icon-open"></span>
+                  </h2>
+                </div>
+                <div class="description-content" style="display: block;">
+                  <div class="description-productdetail">
+                    <div class="description-productdetail">
+                      <p style="margin:10px 0px;padding:0px;list-style:none;">
+                        <span style="font-size:14px;">
+                          <span style="font-family:arial, helvetica, sans-serif;">&nbsp;►Đổi hàng&nbsp;trong vòng 5&nbsp;ngày.</span></span></p>
+                          <p style="margin:10px 0px;padding:0px;list-style:none;"><span style="font-size:14px;">
+                            <span style="font-family:arial, helvetica, sans-serif;">&nbsp;►Giảm đến 15% trên tổng hóa đơn khi mua hàng ( tại cửa hàng ) vào tháng sinh nhật.</span></span></p>
+                            <p style="margin:10px 0px;padding:0px;list-style:none;"><span style="font-size:14px;"><span style="font-family:arial, helvetica, sans-serif;">&nbsp;►Giao hàng nội thành Hà Nội chỉ từ 15.000đ trong vòng 24 giờ.</span></span></p>
+                            <p style="margin:10px 0px;padding:0px;list-style:none;"><span style="font-size:14px;"><span style="font-family:arial, helvetica, sans-serif;">&nbsp;►Tích điểm 3-8% giá trị đơn hàng cho mỗi lần mua và trừ tiền vào lần mua tiếp theo.</span></span>
+                          </p>
+                     </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="product-description">
+                  <div class="title-bl"><h2>
+                  Hướng dẫn bảo quản                                                    
+                  <span class="icon-open active"></span></h2>
+                  </div>
+                <div class="description-content" style="display: block;">
+                  <div class="description-productdetail">
+                    <div class="description-productdetail">
+                      <p><span style="background-color:rgb(248,248,248);color:rgb(88,89,91);"><span>►</span></span><span>Có thể giặt tay hay giặt máy đều được (ưu tiên giặt tay để tăng tuổi thọ của sản phẩm)</span></p>
+                      <p><span style="background-color:rgb(248,248,248);color:rgb(88,89,91);"><span>►</span></span><span>Lộn trái sản phẩm khi giặt, không giặt chung sản phẩm trắng với quần áo tối màu.</span></p>
+                      <p><span style="background-color:rgb(248,248,248);color:rgb(88,89,91);"><span>►</span></span><span>Sử dụng xà phòng trung tính,không sử dụng xà phòng có chất tẩy mạnh.&nbsp;</span></p>
+                      <p><span style="background-color:rgb(248,248,248);color:rgb(88,89,91);"><span>►</span></span><span>Không sử dụng chất tẩy, không ngâm sản phẩm.&nbsp;</span></p>
+                      <p><span style="background-color:rgb(248,248,248);color:rgb(88,89,91);"><span>►</span></span><span>Hạn chế sấy ở nhiệt độ cao, bảo quản nơi khô ráo, thoáng mát, không phơi trực tiếp dưới ánh nắng mặt trời.</span></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+         </div>
+    </section>
+      <div class="banner-slider">
+        <div class="img-banner">
+          <img src="https://pos.nvncdn.net/be3159-662/bn/20220413_jqbMCPP8L1OG4UfbMPS8SM6K.png" alt=""
+            class="img-banner-slider">
+        </div>
+      </div>
+    </div>
+    <div class="contact">
+      <div class="contactinfor">
+        <div class="contact-1">
+          <h4 class="call-buy">GỌI MUA HÀNG ( 8:30-22:00 )</h4>
+          <p class="title-hotline">
+            <i class='bx bxs-phone'></i>
+            <a href="">0982022969</a>
+          </p>
+          <p class="moreinfofooter">Tất cả các ngày trong tuần</p>
+        </div>
+        <div class="contact-1">
+          <h4 class="call-buy">GÓP Ý, KHIẾU NẠI ( 8:30-22:00 )</h4>
+          <p class="title-hotline">
+            <i class='bx bxs-phone'></i>
+            <a href="">0915988888</a>
+          </p>
+          <p class="moreinfofooter">Tất cả các ngày trong tuần</p>
+        </div>
+        <div class="contact-1">
+          <h4 class="call-buy">ĐĂNG KÍ NHẬN THÔNG TIN MỚI</h4>
+          <div class="email">
+            <input class="nhap" type="email" name="mail" placeholder="Nhập email của bạn tại đây...">
+            <a href="" class="btn-email">
+              Đăng ký
+            </a>
+          </div>
+        </div>
+        <div class="contact-1">
+          <h4 class="call-buy">THEO DÕI CHÚNG TÔI</h4>
+          <div class="icon-infor">
+            <a href=""><i class='bx bxl-facebook' ></i></a>
+            <a href=""><i class='bx bxl-instagram' ></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>

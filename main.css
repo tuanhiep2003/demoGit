@@ -1,0 +1,549 @@
+@import url('https://fonts.googleapis.com/css2?family=Agdasima&family=Open+Sans:ital,wght@0,300;0,500;0,700;0,800;1,600;1,700&family=Ysabeau+Office:ital,wght@0,100;1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Coming+Soon&family=Open+Sans:wght@300;500&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    font-size: 14px;
+    color: black;
+    line-height: 1.25;
+}
+.fixed_scroll{
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+}
+.headline
+{
+    width:100%;
+    height: 30px;
+    padding: 10px;
+    display: flex;
+    list-style: none;
+    text-transform: uppercase;
+    background-color: #f2f2f2;
+    box-sizing: border-box;
+    position: relative;
+}
+.topleft{
+    display: block;
+    width: 50%;
+}
+.font-size-left{
+    list-style: none;
+    left: 50px;
+    position: absolute;
+}
+.btnHL{
+    text-decoration: none;
+    display: block;
+    color: #000;
+}
+.topright{
+    display: block;
+    width: 50%;
+}
+.font-size-right{
+    display: flex;
+    list-style: none;
+    left: unset;
+    right: 50px;
+    position: absolute;
+}
+.count-holder{
+    text-decoration: none;
+}
+.count-holder-user{
+    text-decoration: none;
+}
+.count{
+    color: red;
+    box-sizing: border-box;
+}
+.title-info-top{
+    list-style: none;
+    color: black;
+}
+.bxs-shopping-bag{
+    color: #000;
+}
+header{
+    transition: all 0.5s ease-in-out;
+}
+.sticky{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0 ;
+    box-shadow: 0 10px 10px rgba(19, 18, 18, 0.1);
+    z-index: 1;
+    opacity: 0.9 ;
+}
+.sticky .search{
+    top :25px;
+}
+#logo-control-search{
+    display: flex;
+    width: 100%;
+    height: auto;
+    padding: 10px 40px;
+    background-color: white;
+}
+.control{
+    display: flex;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    position: relative;
+}
+.control-btn{
+    font-family: 'Ysabeau Office', sans-serif;
+    list-style: none;
+    display: flex;
+    margin: 5px;
+    border: none;
+    justify-content: space-between;
+    position: relative;
+}
+/* .control-btn li {
+    transition: opacity 0.5s ease;
+    transition-delay: 0.3s;
+} */
+.btn{
+    display: block;
+    background-color: transparent;
+    text-decoration: none;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 14px;
+    color: #000;
+    position: relative;
+    padding: 7px 15px;
+    margin: 10px 0px 17px;
+}
+.btn::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0px;
+    height: 2px;
+    width: 100%;
+    background-color: #000;
+    display: none;
+}
+.btn:hover::after {
+    display: block;
+    opacity: calc(0.5);;
+}
+.sub-menu {
+    font-family: 'Open Sans', sans-serif;
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    padding: 15px 0px;
+    list-style: none;
+    width: 100%;
+    display: none;
+    overflow: hidden;
+}
+.control-btn li:hover ul.sub-menu {
+    display: block;
+    position: absolute;
+}
+.sub-menu li{
+    color: #000;
+    text-align: left;
+    padding-left: 10px;
+    margin-top: 10px;
+}
+.sub-menu :hover a{
+    color: rgb(195, 205, 128);
+}
+.sub-menu a{
+    text-decoration: none;
+    color: #000000;
+    padding: 8px 10px ;
+}
+.logo img{
+    display: block ;
+    width: 65px;
+    height: 65px;
+    object-fit: cover;
+    margin-left: 12px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    position: absolute;
+}
+.search{
+    display: block;
+    position: relative;
+    align-items: center;
+    top: 55px;
+    right: 40px;
+    background: white;
+    height: 35px;
+    width: 35px;
+    overflow: hidden;
+    position: relative;
+    outline: none;
+    border-radius: 40px;
+    position: absolute;
+}
+.search-btn{
+    position: absolute;
+    align-items: center;
+    right: 0px;
+    top: 0px;
+    width: 35px;
+    height: 35px;
+    font-size: 20px;
+    border: 1px solid #404040;
+    border-radius: 40px;
+    transition: all 0.5s ease;
+}
+#search-input{
+    height: 100%;
+    width: 100%;
+    background: transparent;
+    color: black;
+    padding: 15px 50px 15px 15px;
+    border: 1px solid #d0d0d0;
+    border-radius: 40px;
+}
+.search.open{
+    width: 250px;
+}
+.slider img{
+    width: 100%;
+}
+.form-top{
+    width: 100%;
+    height: 100%;
+    margin-top: 100px;
+    display: block;
+    position: relative;
+}
+#sectionbannerhome{
+    display: flex;
+    margin-top: 50px;
+    text-align: center;
+    justify-content: center;
+}
+.hindden{
+    flex-basis: 25%;
+    margin-right: 35px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-align: center;
+    justify-content: center;
+}
+.hindden img{
+    max-width: 100%;
+    height: auto;
+}
+.viewmore-buttom{
+    text-align: center;
+    justify-content: space-between;
+}
+.viewmore-buttom a{
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 10px;
+    text-align: center;
+    text-decoration: none;
+    color: #000;
+}
+.viewmore3baner {
+    display: inline-block;
+    border: 1px solid;
+    padding: 5px 10px;
+    font-size: 13px;
+}
+.viewmore-buttom:hover .viewmore3baner{
+    background: #000;
+    color: #fff;
+}
+.form-top{
+    display: block;
+    padding: 0px 40px;
+    box-sizing: border-box;
+}
+.form-top h1{
+    text-transform: uppercase;
+    font-size: 35px;
+    font-family: 'Open Sans', sans-serif;
+}
+.items{
+    display: flex;
+    list-style: none;
+    float: left;
+    padding: 20px 40px;
+    box-sizing: border-box;
+}
+.category{
+    padding-right: 20px;
+    text-decoration: none;
+     color: #000;
+}
+.product{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    margin: 40px 25px 0px 25px;
+}
+.product-item{
+    flex-basis: 25%;
+    padding: 15px;
+    box-sizing: border-box;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    overflow: hidden;
+}
+.product-top{
+    margin-bottom: 10px;
+    overflow: hidden;
+    position: relative;
+}
+.product-top a:hover img{
+    transform: scale(1.1);
+    
+}
+.product img{
+    max-width: 100%;
+    height: auto;
+    align-items: center;
+}
+.product-thumb{
+    position: relative;
+    display: block;
+    min-width: 280px;
+}
+.image-min{
+    text-align: center;
+    position: relative;
+    display: inline-block;
+}
+.image-min img{
+    border-radius: 100%;
+}
+.product-top a img{
+    transition: all 0.3s ease-out;
+}
+.product-infor a{
+    display: block;
+    text-decoration: none;
+    color: #000;
+}
+.product-buttom{
+    display: block;
+}
+.framesale{
+    display: flex;
+    text-align: center;
+    justify-content: space-around ;
+    border: 1px solid black;
+    padding: 10px;
+    list-style: none;
+    /* display: none;  */
+}
+.framesale a{
+    text-decoration: none;
+    color: #000;
+}
+.product-buttom:hover .framesale {
+    background-color: #000;
+}
+.product-buttom:hover .framesale a{
+    color: #fff;
+}
+.product-buttom:hover .framesale .solid-css{
+    padding-right: 40px;
+    margin-right: -30px;
+    border-right: 1px solid #d0d0d0;
+}
+.solid-css{
+    padding-right: 40px;
+    margin-right: -30px;
+    border-right: 1px solid black;
+}
+.list-logo li{
+    display: inline-block;
+    border-radius: 100%;
+    border: 1px solid #fff;
+    width: 30px !important;
+    height: 30px;
+    padding: 2px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+/* .list-logo li a img{
+    display: inherit;
+    transition: all 0.3s ease-in-out;
+}
+img :hover .list-logo li a{
+    transform: scale(1.1);
+} */
+/* .list-logo li .active{
+    border-radius: 100% ;
+    border: solid 1px red;
+} */
+.document {
+    text-align: left;
+    margin-top: 10px;
+}
+.current {
+    display :flex;
+    margin-top: 70px;
+}
+.current .lookbook{
+    width: 100%;
+    height: auto;
+    padding-left: 10px;
+    padding-right: 10px ;
+}
+.logo-img-18 .img-logo-18-1 {
+    width: 100%;
+}
+.current .news{
+    width: 100%;
+    height: 10%;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.tieude{
+    margin-top: 20px;
+    text-align: left;
+    font-family: 'Coming Soon', cursive;
+}
+.information{
+    text-align: left;
+    padding-top: 10px;
+}
+.see-more{
+    text-align: left;
+    display: block;
+    text-decoration: none;
+    padding-top: 10px;
+    color: red;
+}
+.banner-slider{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 100%;
+    bottom: 0;
+}
+.img-banner {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    margin-top: 70px;
+}
+.contact{
+    position: absolute;
+    left: 31px;
+    top: 100%;
+    right: 31px;
+    bottom: 0;
+    margin-top: 35%;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+}
+.contactinfor{
+    border-top: 1px solid #d0d0d0;
+    display: flex;
+    padding: 40px;
+    position: relative;
+    bottom: 48px;
+}
+.contact-1{
+    text-align:left;
+    padding: 0px 20px; 
+    width: 25%;
+}
+.call-buy{
+    margin-bottom: 10px;
+}
+.email {
+    justify-content: left ;
+    display: flex;
+    min-width: 1px;
+}
+.nhap{
+    padding: 2px 10px;
+}
+.btn-email {
+    border :1px solid black;
+    text-decoration: none;
+    background-color: black;
+    color:aliceblue;
+    padding: 8px 3px;
+}
+.contact-1 p{
+    display: flex;
+    line-height: 21px;
+}
+.title-hotline a{
+    padding: 3px 0px 10px 10px;
+    display: block;
+    color: #000;
+    text-decoration: none;
+    font-size: 27px;
+}
+.bxs-phone{
+    color: #fff;
+    border-radius: 100%;
+    background: red;
+    width: 25px;
+    height: 25px;
+    object-fit: cover;
+    text-align: center;
+    line-height: 25px;
+}
+.icon-infor{
+    display: flex;
+}
+.icon-infor a{
+   font-size: 40px;
+   padding-right: 10px;
+   color: #000;
+}
+.footer {
+    width: 100%;
+    height: 520px;
+    background-color: #f1f1f1;
+    display: flex;
+}
+.innerInfoFooter {
+    margin-top: 30px;
+    margin-left: 150px;
+}
+.footer-content {
+    line-height: 35px;
+    margin-top: 30px;
+}
+.policy li a {
+    margin-top: 60px;
+    line-height: 52px;
+    text-decoration: none;
+    color: #000;
+}
+.policy li {
+    list-style: none;
+}
+.footer-content p span i {
+    line-height: 52px;
+}
+.fanpage li a {
+    line-height: 52px;
+    text-decoration: none;
+    color: #000;
+}

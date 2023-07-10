@@ -1,0 +1,823 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Áo nam</title>
+  <link href='./assets/fonts/fontawesome-free-6.4.0-web/fontawesome-free-6.4.0/css/all.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="./shirt.css">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+  <div class="fixed_scroll">
+    <div class="headline">
+      <div class="topleft">
+        <ul class="font-size-left">
+          <li>
+            <a aria-label="hotline" class="btnHL" href="">
+              <i class="fa fa-phone" aria-hidden="true"></i>
+              <span class="title-info-top">
+                <b>0325.542.941</b>
+              </span>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="topright">
+        <ul class="font-size-right">
+          <li id="cat-header-top">
+            <span id="site-cart-handle" class="icon-cart" aria-label="Open cart" title="Giỏ hàng">
+              <a aria-label="cart" href="./cart.html" class="count-holder">
+                <span class='bx bxs-shopping-bag'></span>
+                <span class="title-info-top">
+                  Giỏ hàng
+                  <span>
+                    (
+                    <span class="count">0</span>
+                    )
+                  </span>
+                </span>
+              </a>
+            </span>
+          </li>
+          <li>
+            <a href="./login.html" class="count-holder-user">
+              <span class='bx bx-user'></span>
+              <span class="title-info-top">Tài khoản</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <header>
+      <div id="logo-control-search">
+        <div class="logo">
+          <img
+            src="https://scontent.fhan19-1.fna.fbcdn.net/v/t1.15752-9/358853211_938151374141499_7588719809323232734_n.png?_nc_cat=103&ccb=1-7&_nc_sid=ae9488&_nc_ohc=LlH89E7iewsAX-00Yf_&_nc_ht=scontent.fhan19-1.fna&oh=03_AdSOsgsav05b-WSrS-yQHhu2vAVAOBQG7FoearmMhhN0nA&oe=64CFBB6B"
+            alt="">
+        </div>
+        <div class="control">
+          <Nav>
+            <ul class="control-btn">
+              <li><a href="./shirt.html" class="btn" type="">Áo nam</a>
+                <ul class="sub-menu">
+                  <li><a href="#">Áo Blazer</a></li>
+                  <li><a href="#">Áo Phông</a></li>
+                  <li><a href="#">Áo Sơ Mi</a></li>
+                  <li><a href="#">Áo Tank Top</a></li>
+                  <li><a href="#">Áo Polo</a></li>
+                </ul>
+              </li>
+              <li><a href="./pants.html" class="btn" type="">Quần nam</a>
+                <ul class="sub-menu">
+                  <li><a href="#">Quần jeans</a></li>
+                  <li><a href="#">Quần short</a></li>
+                  <li><a href="#">Quần âu</a></li>
+                  <li><a href="#">Quần jogger</a></li>
+                  <li><a href="#">Quần kaki</a></li>
+                </ul>
+              </li>
+              <li><a href="./accessory.html" class="btn" type="">Phụ kiện</a>
+                <ul class="sub-menu">
+                  <li><a href="#">Dây lưng</a></li>
+                  <li><a href="#">Balo + Cặp sách</a></li>
+                  <li><a href="#">Giày Dép</a></li>
+                  <li><a href="#">Tất nam</a></li>
+                  <li><a href="#">MŨ nam</a></li>
+                </ul>
+              </li>
+              <li><a href="./news.html" class="btn" type="">Tin tức</a></li>
+            </ul>
+          </Nav>
+        </div>
+        <div class="search">
+          <input type="text" id="search-input" placeholder="Nhập từ khóa...">
+          <button class="search-btn">
+            <i class="fa fa-search" aria-hidden="true"></i>
+          </button>
+        </div>
+      </div>
+  
+    </header>
+    <div class="tieude">
+      <div class="back">
+        <a href="./index.html" class="home-page">
+          <i class="fa-solid fa-house-chimney"></i>
+          <span>Trang chủ |</span>
+        </a>
+      </div>
+      <span class="name-page">Áo Nam</span>
+    </div>
+
+    <div class="header">
+      <div class="mens-shirt">
+        <div class="title">
+          <h1 class="subtitles">Áo Nam</h1>
+          <div class="select">
+            <h4 class="filter">BỘ LỌC</h4>
+            <ul class="options">
+              <li class="advise">
+                <a href="">Màu Sắc
+                  <i class="fa-solid fa-angle-down"></i>
+                </a>
+              </li>
+              <li class="advise">
+                <a href="">Kích cỡ
+                  <i class="fa-solid fa-angle-down"></i>
+                </a>
+              </li>
+              <li class="advise">
+                <a href="">Khoảng giá
+                  <i class="fa-solid fa-angle-down"></i>
+                </a>
+              </li>
+
+            </ul>
+            <div class="contentFilter">
+              <div class="container">
+                <div class="container-color">
+                  <div class="square red"></div>
+                  <div class="square blue"></div>
+                  <div class="square yellow"></div>
+                  <div class="square gray"></div>
+                  <div class="square black"></div>
+                  <div class="square white"></div>
+                  <div class="square pink"></div>
+                  <div class="square brown"></div>
+                </div>
+                <div class="container-size">
+                  <div class="checkbox-wrapper">
+                    <input type="checkbox" id="size-s" name="size" value="S">
+                    <label for="size-s">S</label>
+                  </div>
+                  <div class="checkbox-wrapper">
+                    <input type="checkbox" id="size-m" name="size" value="M">
+                    <label for="size-m">M</label>
+                  </div>
+                  <div class="checkbox-wrapper">
+                    <input type="checkbox" id="size-l" name="size" value="L">
+                    <label for="size-l">L</label>
+                  </div>
+                  <div class="checkbox-wrapper">
+                    <input type="checkbox" id="size-xl" name="size" value="XL">
+                    <label for="size-xl">XL</label>
+                  </div>
+                  <div class="checkbox-wrapper">
+                    <input type="checkbox" id="size-2xl" name="size" value="2XL">
+                    <label for="size-2xl">2XL</label>
+                  </div>
+                  <div class="checkbox-wrapper">
+                    <input type="checkbox" id="size-3xl" name="size" value="3XL">
+                    <label for="size-3xl">3XL</label>
+                  </div>
+                </div>
+                <div class="container-price">
+                  <div class="checkbox-wrapper">
+                    <input type="checkbox" id="price-1" name="price" value="xxx">
+                    <label for="price-1">Dưới 200k</label>
+                  </div>
+                  <div class="checkbox-wrapper">
+                    <input type="checkbox" id="price-2" name="price" value="xxx">
+                    <label for="price-2">Từ 200k - 500k</label>
+                  </div>
+                  <div class="checkbox-wrapper">
+                    <input type="checkbox" id="price-3" name="price" value="xxx">
+                    <label for="price-3">Từ 500k - 1 triệu</label>
+                  </div>
+                  <div class="checkbox-wrapper">
+                    <input type="checkbox" id="price-4" name="price" value="xxx">
+                    <label for="price-4">Trên 1 triệu</label>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="arrange">
+          <h5>Sắp xếp theo:</h5>
+          <select class="selective">
+            <option>Mới nhất</option>
+            <option>Giá giảm dần</option>
+            <option>Giá tăng dần</option>
+            <option>Sale</option>
+          </select>
+        </div>
+      </div>
+    </div>
+    <div class="form-top">
+      <div class="product">
+        <div class="product-item">
+          <div class="product-top">
+            <a href="#" class="product-thumb">
+              <img src="https://pos.nvncdn.net/be3159-662/ps/20230628_d0eaoXyAJD.jpeg" alt="" class="img-feature">
+            </a>
+          </div>
+          <div class="image-min">
+            <ul class="list-logo">
+              <li class="list-logo-min">
+                <div><img src="https://pos.nvncdn.net/be3159-662/ps/20230628_d0eaoXyAJD.jpeg" alt="">
+                </div>
+              </li>
+              <li class="list-logo-min">
+                <div><img src="https://pos.nvncdn.net/be3159-662/ps/20230628_77ZSnWO66G.jpeg" alt=""></div>
+              </li>
+              <li class="list-logo-min">
+                <div><img src="https://pos.nvncdn.net/be3159-662/ps/20230628_H46rNIf2OQ.jpeg" alt=""></div>
+              </li>
+              <li class="list-logo-min">
+                <div><img src="https://pos.nvncdn.net/be3159-662/ps/20230628_cKQ3U7GaUM.jpeg" alt=""></div>
+              </li>
+            </ul>
+          </div>
+          <div class="product-infor">
+            <a href="#" class="content">Áo polo cổ Đức Regular Cotton 2070</a>
+            <span class="price">349.000₫</span>
+          </div>
+          <div class="product-buttom">
+            <ul class="framesale">
+              <li><a href="#" class="solid-css">Mua Ngay</a></li>
+              <li><a href="./product.html">Chi Tiết</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="product-item">
+          <div class="product-top">
+            <a href="#" class="product-thumb">
+              <img src="https://pos.nvncdn.net/be3159-662/ps/20230609_zkGMMw6B70.jpeg" alt="" id="img-feature">
+            </a>
+          </div>
+          <div class="image-min">
+            <ul class="list-logo" id="list-logo">
+              <li class="list-logo-min">
+                <div><img src="https://pos.nvncdn.net/be3159-662/ps/20230609_09ToIX8Blq.jpeg" alt=""></div>
+              </li>
+              <li class="list-logo-min">
+                <div><img src="https://pos.nvncdn.net/be3159-662/ps/20230609_ognRVUM1AF.jpeg" alt=""></div>
+              </li>
+              <li class="list-logo-min">
+                <div><img src="https://pos.nvncdn.net/be3159-662/ps/20230609_toQKxwxX7A.jpeg" alt=""></div>
+              </li>
+              <li class="list-logo-min">
+                <div><img src="https://pos.nvncdn.net/be3159-662/ps/20230609_zkGMMw6B70.jpeg" alt=""></div>
+              </li>
+            </ul>
+          </div>
+          <div class="product-infor">
+            <a href="#" class="content">Áo polo cổ Đức Regular Cotton 2068</a>
+            <span class="price">349.000₫</span>
+          </div>
+          <div class="product-buttom">
+            <ul class="framesale">
+              <li><a href="#" class="solid-css">Mua Ngay</a></li>
+              <li><a href="./product.html">Chi Tiết</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="product-item">
+          <div class="product-top">
+            <a href="#" class="product-thumb">
+              <img src="https://pos.nvncdn.net/be3159-662/ps/20230628_6ezdhFNJzp.jpeg" alt="" id="img-feature">
+            </a>
+          </div>
+          <div class="image-min">
+            <ul class="list-logo" id="list-logo">
+              <li class="list-logo-min">
+                <div><img src="https://pos.nvncdn.net/be3159-662/ps/20230628_cCkSmPwHdz.jpeg" alt=""></div>
+              </li>
+              <li class="list-logo-min">
+                <div><img src="https://pos.nvncdn.net/be3159-662/ps/20230628_6ezdhFNJzp.jpeg" alt=""></div>
+              </li>
+              <li class="list-logo-min">
+                <div><img src="https://pos.nvncdn.net/be3159-662/ps/20230628_G5wtrMvU8o.jpeg" alt=""></div>
+              </li>
+              <li class="list-logo-min">
+                <div><img src="https://pos.nvncdn.net/be3159-662/ps/20230628_KjVGl1L4gg.jpeg" alt=""></div>
+              </li>
+            </ul>
+          </div>
+          <div class="product-infor">
+            <a href="#" class="content">Áo Phông Regular Cotton 1096</a>
+            <span class="price">289.000₫</span>
+          </div>
+          <div class="product-buttom">
+            <ul class="framesale">
+              <li><a href="#" class="solid-css">Mua Ngay</a></li>
+              <li><a href="./product.html">Chi Tiết</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="product-item">
+          <div class="product-top">
+            <a href="#" class="product-thumb">
+              <img src="https://pos.nvncdn.net/be3159-662/ps/20230613_CDVELhuVFL.jpeg" alt="" id="img-feature">
+            </a>
+          </div>
+          <div class="image-min">
+            <ul class="list-logo" id="list-logo">
+              <li class="list-logo-min">
+                <div><img src="https://pos.nvncdn.net/be3159-662/ps/20230613_CDVELhuVFL.jpeg" alt=""></div>
+              </li>
+              <li class="list-logo-min">
+                <div><img src="https://pos.nvncdn.net/be3159-662/ps/20230613_wNj0V9xkBf.jpeg" alt=""></div>
+              </li>
+              <li class="list-logo-min">
+                <div><img src="https://pos.nvncdn.net/be3159-662/ps/20230613_bBsDJ19VSA.jpeg" alt=""></div>
+              </li>
+              <li class="list-logo-min">
+                <div><img src="https://pos.nvncdn.net/be3159-662/ps/20230613_m2FkY8bD9U.jpeg" alt=""></div>
+              </li>
+            </ul>
+          </div>
+          <div class="product-infor">
+            <a href="#" class="content">Áo Phông Classic Cotton 1078</a>
+            <span class="price">289.000₫</span>
+          </div>
+          <div class="product-buttom">
+            <ul class="framesale">
+              <li><a href="#" class="solid-css">Mua Ngay</a></li>
+              <li><a href="./product.html">Chi Tiết</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="form-top">
+      <div class="product">
+        <div class="product-item">
+          <div class="product-top">
+            <a href="#" class="product-thumb">
+              <img src="https://pos.nvncdn.net/be3159-662/ps/20230628_leXZxZavKk.jpeg" alt="" class="img-feature">
+            </a>
+          </div>
+          <div class="image-min">
+            <ul class="list-logo">
+              <li class="list-logo-min">
+                <div><img src="https://pos.nvncdn.net/be3159-662/ps/20230628_cKQ3U7GaUM.jpeg" alt="">
+                </div>
+              </li>
+              <li class="list-logo-min">
+                <div><img src="https://pos.nvncdn.net/be3159-662/ps/20230628_RmqVJ5cHAj.jpeg" alt=""></div>
+              </li>
+              <li class="list-logo-min">
+                <div><img src="https://pos.nvncdn.net/be3159-662/ps/20230628_Ivts63cuZ7.jpeg" alt=""></div>
+              </li>
+              <li class="list-logo-min">
+                <div><img src="https://pos.nvncdn.net/be3159-662/ps/20230628_leXZxZavKk.jpeg" alt=""></div>
+              </li>
+            </ul>
+          </div>
+          <div class="product-infor">
+            <a href="#" class="content">Áo polo cổ Đức Regular Cotton 2074</a>
+            <span class="price">349.000₫</span>
+          </div>
+          <div class="product-buttom">
+            <ul class="framesale">
+              <li><a href="#" class="solid-css">Mua Ngay</a></li>
+              <li><a href="./product.html">Chi Tiết</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="product-item">
+          <div class="product-top">
+            <a href="#" class="product-thumb">
+              <img src="https://pos.nvncdn.net/be3159-662/ps/20230427_PXNVrZxI7j.jpeg" alt="" id="img-feature">
+            </a>
+          </div>
+          <div class="image-min">
+            <ul class="list-logo" id="list-logo">
+              <li class="list-logo-min">
+                <div><img src="https://pos.nvncdn.net/be3159-662/ps/20230427_l8u6Ogjqku.jpeg" alt=""></div>
+              </li>
+              <li class="list-logo-min">
+                <div><img src="https://pos.nvncdn.net/be3159-662/ps/20230427_Ec0mJRs4kd.jpeg" alt=""></div>
+              </li>
+              <li class="list-logo-min">
+                <div><img src="https://pos.nvncdn.net/be3159-662/ps/20230427_Irq7R0jCCT.jpeg" alt=""></div>
+              </li>
+              <li class="list-logo-min">
+                <div><img src="https://pos.nvncdn.net/be3159-662/ps/20230427_PXNVrZxI7j.jpeg" alt=""></div>
+              </li>
+            </ul>
+          </div>
+          <div class="product-infor">
+            <a href="#" class="content">Áo polo cổ Tàu Fitted Cotton 2011</a>
+            <span class="price">349.000₫</span>
+          </div>
+          <div class="product-buttom">
+            <ul class="framesale">
+              <li><a href="#" class="solid-css">Mua Ngay</a></li>
+              <li><a href="./product.html">Chi Tiết</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="product-item">
+          <div class="product-top">
+            <a href="#" class="product-thumb">
+              <img src="https://pos.nvncdn.net/be3159-662/ps/20230613_VtqtHKbFcV.jpeg" alt="" id="img-feature">
+            </a>
+          </div>
+          <div class="image-min">
+            <ul class="list-logo" id="list-logo">
+
+              <li class="list-logo-min">
+                <div><img src="https://pos.nvncdn.net/be3159-662/ps/20230613_VtqtHKbFcV.jpeg" alt=""></div>
+              </li>
+              <li class="list-logo-min">
+                <div><img src="https://pos.nvncdn.net/be3159-662/ps/20230613_j0eHaDVAv5.jpeg" alt=""></div>
+              </li>
+              <li class="list-logo-min">
+                <div><img src="https://pos.nvncdn.net/be3159-662/ps/20230613_FdqlY1Sdd3.jpeg" alt=""></div>
+              </li>
+            </ul>
+          </div>
+          <div class="product-infor">
+            <a href="#" class="content">Áo Phông Classic Cotton 1094</a>
+            <span class="price">319.000₫</span>
+          </div>
+          <div class="product-buttom">
+            <ul class="framesale">
+              <li><a href="#" class="solid-css">Mua Ngay</a></li>
+              <li><a href="./product.html">Chi Tiết</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="product-item">
+          <div class="product-top">
+            <a href="#" class="product-thumb">
+              <img src="https://pos.nvncdn.net/be3159-662/ps/20230613_u0C1mweujT.jpeg" alt="" id="img-feature">
+            </a>
+          </div>
+          <div class="image-min">
+            <ul class="list-logo" id="list-logo">
+
+              <li class="list-logo-min">
+                <div><img src="https://pos.nvncdn.net/be3159-662/ps/20230613_u0C1mweujT.jpeg" alt=""></div>
+              </li>
+              <li class="list-logo-min">
+                <div><img src="https://pos.nvncdn.net/be3159-662/ps/20230613_koDJ1TCsbu.jpeg" alt=""></div>
+              </li>
+              <li class="list-logo-min">
+                <div><img src="https://pos.nvncdn.net/be3159-662/ps/20230613_J3X4GkgLiR.jpeg" alt=""></div>
+              </li>
+            </ul>
+          </div>
+          <div class="product-infor">
+            <a href="#" class="content">Áo Phông Regular Cotton 1063</a>
+            <span class="price">269.000₫</span>
+          </div>
+          <div class="product-buttom">
+            <ul class="framesale">
+              <li><a href="#" class="solid-css">Mua Ngay</a></li>
+              <li><a href="./product.html">Chi Tiết</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="form-top">
+      <div class="product">
+        <div class="product-item">
+          <div class="product-top">
+            <a href="#" class="product-thumb">
+              <img src="https://pos.nvncdn.net/be3159-662/ps/20230613_IrGuT1jbbf.jpeg" alt="" class="img-feature">
+            </a>
+          </div>
+          <div class="image-min">
+            <ul class="list-logo">
+
+              <li class="list-logo-min">
+                <div><img src="https://pos.nvncdn.net/be3159-662/ps/20230613_IrGuT1jbbf.jpeg" alt=""></div>
+              </li>
+            </ul>
+          </div>
+          <div class="product-infor">
+            <a href="#" class="content">Áo Sơ Mi Kẻ cổ Đức Dài Tay Slim Cotton 3031</a>
+            <span class="price">419.000₫</span>
+          </div>
+          <div class="product-buttom">
+            <ul class="framesale">
+              <li><a href="#" class="solid-css">Mua Ngay</a></li>
+              <li><a href="./product.html">Chi Tiết</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="product-item">
+          <div class="product-top">
+            <a href="#" class="product-thumb">
+              <img src="https://pos.nvncdn.net/be3159-662/ps/20230613_Pyi2X4PkK5.jpeg" alt="" id="img-feature">
+            </a>
+          </div>
+          <div class="image-min">
+            <ul class="list-logo" id="list-logo">
+
+              <li class="list-logo-min">
+                <div><img src="https://pos.nvncdn.net/be3159-662/ps/20230613_Pyi2X4PkK5.jpeg" alt=""></div>
+              </li>
+            </ul>
+          </div>
+          <div class="product-infor">
+            <a href="#" class="content">Áo polo cổ Đức Regular Cotton 2073</a>
+            <span class="price">349.000₫</span>
+          </div>
+          <div class="product-buttom">
+            <ul class="framesale">
+              <li><a href="#" class="solid-css">Mua Ngay</a></li>
+              <li><a href="./product.html">Chi Tiết</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="product-item">
+          <div class="product-top">
+            <a href="#" class="product-thumb">
+              <img src="https://pos.nvncdn.net/be3159-662/ps/20230613_i93o1eQ8NE.jpeg" alt="" id="img-feature">
+            </a>
+          </div>
+          <div class="image-min">
+            <ul class="list-logo" id="list-logo">
+              <li class="list-logo-min">
+                <div><img src="https://pos.nvncdn.net/be3159-662/ps/20230613_i93o1eQ8NE.jpeg" alt=""></div>
+              </li>
+            </ul>
+          </div>
+          <div class="product-infor">
+            <a href="#" class="content">Áo polo cổ Đức Regular Cotton 2072</a>
+            <span class="price">349.000₫</span>
+          </div>
+          <div class="product-buttom">
+            <ul class="framesale">
+              <li><a href="#" class="solid-css">Mua Ngay</a></li>
+              <li><a href="./product.html">Chi Tiết</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="product-item">
+          <div class="product-top">
+            <a href="#" class="product-thumb">
+              <img src="https://pos.nvncdn.net/be3159-662/ps/20230609_qtKjAtrbaP.jpeg" alt="" id="img-feature">
+            </a>
+          </div>
+          <div class="image-min">
+            <ul class="list-logo" id="list-logo">
+              <li class="list-logo-min">
+                <div><img src="https://pos.nvncdn.net/be3159-662/ps/20230609_nwKAtEct95.jpeg" alt=""></div>
+              </li>
+              <li class="list-logo-min">
+                <div><img src="https://pos.nvncdn.net/be3159-662/ps/20230609_qtKjAtrbaP.jpeg" alt=""></div>
+              </li>
+            </ul>
+          </div>
+          <div class="product-infor">
+            <a href="#" class="content">Áo Polo cổ Đức Classic Cotton 2065</a>
+            <span class="price">349.000₫</span>
+          </div>
+          <div class="product-buttom">
+            <ul class="framesale">
+              <li><a href="#" class="solid-css">Mua Ngay</a></li>
+              <li><a href="./product.html">Chi Tiết</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="form-top">
+      <div class="product">
+        <div class="product-item">
+          <div class="product-top">
+            <a href="#" class="product-thumb">
+              <img src="https://pos.nvncdn.net/be3159-662/ps/20230613_Lw5dYsM0uP.jpeg" alt="" class="img-feature">
+            </a>
+          </div>
+          <div class="image-min">
+            <ul class="list-logo">
+
+              <li class="list-logo-min">
+                <div><img src="https://pos.nvncdn.net/be3159-662/ps/20230613_Lw5dYsM0uP.jpeg" alt=""></div>
+              </li>
+            </ul>
+          </div>
+          <div class="product-infor">
+            <a href="#" class="content">Áo Sơ Mi cổ Đức Dài Tay Regular Cotton 3009</a>
+            <span class="price">419.000₫</span>
+          </div>
+          <div class="product-buttom">
+            <ul class="framesale">
+              <li><a href="#" class="solid-css">Mua Ngay</a></li>
+              <li><a href="./product.html">Chi Tiết</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="product-item">
+          <div class="product-top">
+            <a href="#" class="product-thumb">
+              <img src="https://pos.nvncdn.net/be3159-662/ps/20230520_pDF4sXaIEF.jpeg" alt="" id="img-feature">
+            </a>
+          </div>
+          <div class="image-min">
+            <ul class="list-logo" id="list-logo">
+
+              <li class="list-logo-min">
+                <div><img src="https://pos.nvncdn.net/be3159-662/ps/20230520_pDF4sXaIEF.jpeg" alt=""></div>
+              </li>
+            </ul>
+          </div>
+          <div class="product-infor">
+            <a href="#" class="content">Áo Phông Regular Cotton 1085</a>
+            <span class="price">269.000₫</span>
+          </div>
+          <div class="product-buttom">
+            <ul class="framesale">
+              <li><a href="#" class="solid-css">Mua Ngay</a></li>
+              <li><a href="./product.html">Chi Tiết</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="product-item">
+          <div class="product-top">
+            <a href="#" class="product-thumb">
+              <img src="https://pos.nvncdn.net/be3159-662/ps/20230628_ZIUQFRqHZG.jpeg" alt="" id="img-feature">
+            </a>
+          </div>
+          <div class="image-min">
+            <ul class="list-logo" id="list-logo">
+              <li class="list-logo-min">
+                <div><img src="https://pos.nvncdn.net/be3159-662/ps/20230628_ZIUQFRqHZG.jpeg" alt=""></div>
+              </li>
+            </ul>
+          </div>
+          <div class="product-infor">
+            <a href="#" class="content">Áo polo Kẻ cổ Đức Regular Polyster 2032</a>
+            <span class="price">379.000₫</span>
+          </div>
+          <div class="product-buttom">
+            <ul class="framesale">
+              <li><a href="#" class="solid-css">Mua Ngay</a></li>
+              <li><a href="./product.html">Chi Tiết</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="product-item">
+          <div class="product-top">
+            <a href="#" class="product-thumb">
+              <img src="https://pos.nvncdn.net/be3159-662/ps/20230626_1yszFkhpuq.jpeg" alt="" id="img-feature">
+            </a>
+          </div>
+          <div class="image-min">
+            <ul class="list-logo" id="list-logo">
+              <li class="list-logo-min">
+                <div><img src="https://pos.nvncdn.net/be3159-662/ps/20230626_1yszFkhpuq.jpeg" alt=""></div>
+              </li>
+              <li class="list-logo-min">
+                <div><img src="https://pos.nvncdn.net/be3159-662/ps/20230626_fMxiis5dXU.jpeg" alt=""></div>
+              </li>
+            </ul>
+          </div>
+          <div class="product-infor">
+            <a href="#" class="content">Áo Phông Kẻ Regular Cotton 1087</a>
+            <span class="price">269.000₫</span>
+          </div>
+          <div class="product-buttom">
+            <ul class="framesale">
+              <li><a href="#" class="solid-css">Mua Ngay</a></li>
+              <li><a href="./product.html">Chi Tiết</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="product_next">
+      <div class="next_list">
+        <div class="next-one  next-one_color">1</div>
+        <div class="next-one">2</div>
+        <div class="next-one">3</div>
+        <div class="next-one"><i class="fa fa-angle-right" aria-hidden="true"></i></div>
+        <div class="next-one"><i class="fa fa-angle-right" aria-hidden="true"></i><i class="fa fa-angle-right"
+            aria-hidden="true"></i></div>
+      </div>
+    </div>
+    <div class="banner-slider">
+      <div class="img-banner">
+        <img src="https://pos.nvncdn.net/be3159-662/bn/20220413_jqbMCPP8L1OG4UfbMPS8SM6K.png" alt=""
+          class="img-banner-slider">
+      </div>
+    </div>
+    <div class="contact">
+      <div class="contactinfor">
+        <div class="contact-1">
+          <h4 class="call-buy">GỌI MUA HÀNG ( 8:30-22:00 )</h4>
+          <p class="title-hotline">
+            <i class='bx bxs-phone'></i>
+            <a href="">0982022969</a>
+          </p>
+          <p class="moreinfofooter">Tất cả các ngày trong tuần</p>
+        </div>
+        <div class="contact-1">
+          <h4 class="call-buy">GÓP Ý, KHIẾU NẠI ( 8:30-22:00 )</h4>
+          <p class="title-hotline">
+            <i class='bx bxs-phone'></i>
+            <a href="">0915988888</a>
+          </p>
+          <p class="moreinfofooter">Tất cả các ngày trong tuần</p>
+        </div>
+        <div class="contact-1">
+          <h4 class="call-buy">ĐĂNG KÍ NHẬN THÔNG TIN MỚI</h4>
+          <div class="email">
+            <input class="nhap" type="email" name="mail" placeholder="Nhập email của bạn tại đây...">
+            <a href="" class="btn-email">
+              Đăng ký
+            </a>
+          </div>
+        </div>
+        <div class="contact-1">
+          <h4 class="call-buy">THEO DÕI CHÚNG TÔI</h4>
+          <div class="icon-infor">
+            <a href=""><i class='bx bxl-facebook' ></i></a>
+              <a href=""><i class='bx bxl-instagram' ></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="footer">
+        <div class="innerInfoFooter">
+          <div class="footertitle">
+            <h4>VỀ CHÚNG TÔI</h4>
+          </div>
+          <div class="footer-content">
+            <strong>Công ty TNHH KRIK Việt Nam</strong>
+            <p><strong>Địa chỉ</strong>: Số 344 Cầu Giấy, Phường <br> Dịch Vọng, Quận Cầu Giấy, Thành <br> phố Hà Nội
+            </p>
+            <p><strong>Mã số doanh nghiệp</strong>: 0108901419 do <br> Sở kế hoạch và đầu tư thành phố <br> Hà Nội cấp
+              ngày 17/09/2019</p>
+            <p><strong>Điện thoại</strong>: 0982.022.969</p>
+            <p><strong>Email</strong>: nhansu@krik.vn</p>
+            <img src="https://krik.vn/img/bocongthuong.png" alt="">
+          </div>
+        </div>
+        <div class="innerInfoFooter">
+          <h4>CHÍNH SÁCH VÀ QUY ĐỊNH</h4>
+          <div class="footer-content">
+            <ul class="policy">
+              <li>
+                <p><a href="">Cách thức đặt hàng</a></p>
+              </li>
+              <li>
+                <p><a href="">Chính sách thành viên</a></p>
+              </li>
+              <li>
+                <p><a href="">Chính sách giao hàng</a></p>
+              </li>
+              <li>
+                <p><a href="">Quy định đổi trả</a></p>
+              </li>
+              <li>
+                <p><a href="">Hình thức thanh toán</a></p>
+              </li>
+              <li>
+                <p><a href="">Chính sách bảo mật</a></p>
+              </li>
+              <li>
+                <p><a href="">Chính sách xử lí khiếu nại</a></p>
+              </li>
+              <li>
+                <p><a href="">Chính sách kiểm hàng</a></p>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="innerInfoFooter">
+          <div class="footertitle">
+            <h4>HỆ THỐNG CỬA HÀNG</h4>
+          </div>
+          <div class="footer-content">
+            <p><span><i class="fa fa-caret-right" aria-hidden="true"></i>25c Đại La</span></p>
+            <p><span><i class="fa fa-caret-right" aria-hidden="true"></i>334 Cầu Giấy</span></p>
+            <p><span><i class="fa fa-caret-right" aria-hidden="true"></i>132 Cầu Giấy</span></p>
+            <p><span><i class="fa fa-caret-right" aria-hidden="true"></i>280-282 Nguyễn Trãi</span></p>
+            <p><span><i class="fa fa-caret-right" aria-hidden="true"></i>167 Chùa Bộc</span></p>
+            <p><span><i class="fa fa-caret-right" aria-hidden="true"></i>307H Bạch Mai</span></p>
+            <p><span><i class="fa fa-caret-right" aria-hidden="true"></i>23 Chùa Bộc</span></p>
+            <p><span><i class="fa fa-caret-right" aria-hidden="true"></i>189 Phố Nhổn</span></p>
+          </div>
+        </div>
+        <div class="innerInfoFooter">
+          <div class="footertitle">
+            <h4>FANPAGE CHÚNG TÔI</h4>
+          </div>
+          <div class="footer-content">
+            <ul class="fanpage">
+              <li><a href="">NOTICE</a></li>
+              <li><a href="">REWIEW</a></li>
+              <li><a href="">WEEKLY TOP 10</a></li>
+              <li><a href="">1:1 Q & A </a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="back-top">
+      <a href="./shirt.html"><i class="fa fa-angle-up" aria-hidden="true"></i></a>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>

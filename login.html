@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="register-login.css">
+    <title>Đăng Nhập</title>
+</head>
+<body>
+    <div class="container">
+        <div class="form">
+            <h2>Đăng nhập</h2>
+            <form>
+              <div class="form-group Error">
+                <label for="username">Tên đăng nhập:</label>
+                <input type="text" id="username" name="username" required placeholder="username">
+                <!-- <small>Error</small> -->
+                <span></span>
+              </div>
+              <div class="form-group">
+                <label for="password">Mật khẩu:</label>
+                <input type="password" id="password" name="password" required placeholder="password">
+                <!-- <small>Error</small> -->
+                <span></span>
+              </div>
+              <div class="form-group">
+                <button type="submit">Đăng nhập</button>
+              </div>
+            </form>
+        </div>
+        <div class="Social-link">
+            <div class="Social_auth-form-facebook">
+                <a href="#" class="Social Social-facebook">
+                    <i class='Social-icon bx bxl-facebook'></i>
+                    <span class="text-link">Kết nối với facebook</span>
+                </a>
+            </div>
+            <div class="Social_auth-form-google">
+                <a href="#"class="Social Social-goodle">
+                    <i class='Social-icon bx bxl-google'  ></i>
+                    <span class="text-link">Kết nối với google</span>
+                </a>
+            </div>
+        </div>
+        <div class="link-register">
+            <p>bạn chưa có tài khoản? bấm vào <a href="register.html">đây</a>!</p>
+        </div>
+    </div>
+</body>
+</html>
